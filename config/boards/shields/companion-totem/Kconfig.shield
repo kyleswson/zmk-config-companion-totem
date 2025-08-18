@@ -1,0 +1,8 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_COMPANION-TOTEM_LEFT
+    def_bool $(shields_list_contains,companion-totem_left)
+
+config SHIELD_COMPANION-TOTEM_RIGHT
+    def_bool $(shields_list_contains,companion-totem_right)
