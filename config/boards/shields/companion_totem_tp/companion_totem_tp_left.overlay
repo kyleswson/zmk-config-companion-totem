@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "companion-totem.dtsi"
+#include "companion_totem_tp.dtsi"
 
 &kscan0 {
     col-gpios
