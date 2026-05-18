@@ -45,36 +45,6 @@
             require-prior-idle-ms = <150>;
         };
 
-        Shift_Q {
-            bindings = <&kp LS(Q)>;
-            key-positions = <0 10>;
-            layers = <0>;
-        };
-
-        Shift_W {
-            bindings = <&kp LS(W)>;
-            key-positions = <1 11>;
-            layers = <0>;
-        };
-
-        Shift_E {
-            bindings = <&kp LS(E)>;
-            key-positions = <12 2>;
-            layers = <0>;
-        };
-
-        Shift_R {
-            bindings = <&kp LS(R)>;
-            key-positions = <13 3>;
-            layers = <0>;
-        };
-
-        Shift_T {
-            bindings = <&kp LS(T)>;
-            key-positions = <4 14>;
-            layers = <0>;
-        };
-
         Paste {
             bindings = <&kp LC(V)>;
             key-positions = <13 24>;
